@@ -7,21 +7,63 @@
     background-color: #8a2b06;
     color: wheat;
     display: flex;
-    justify-content: space-between;
+   
+    justify-content: space-around;
+    
     align-items: center;
-    padding: 0 10%;
+    
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 10;
 }
 .main-image{
-   width: 100%;
+   width: 2000px;
    height: 25rem;
    overflow: hidden;
+   overflow-x: hidden;
+
    z-index: 0;
 }
 .main-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+    transform: rotateZ(-2deg) translateY(-2rem) translateX(0rem);
+    animation: fromtop 2s ease-out forwards;
+}
+@keyframes fromtop {
+    from{
+        opacity: 0;
+        transform: translateX(1rem);
+    }
+    
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    background-color: #290d03;
+    display: flex;
+    gap: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 0.23px 30px;
+    border-radius: 30px;
+    border: none;
+}
+button:hover{
+    background-color: #080200;
+}
+.Num{
+    background-color: rgb(14, 13, 13);
+    border-radius: 50%;
+    padding: 5px 13px;
+    color: rgb(228, 203, 203);
+}
+.shopcart{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(303deg, #290d03,white, #290d03, white);
+    border-radius: 30px;
+
 }

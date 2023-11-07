@@ -1,0 +1,26 @@
+.display{
+    text-align: right;
+    margin-right: 10vh;
+
+
+
+}
+.display button{
+  
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border-radius: 1px solid #000000;
+    font-size: 16px;
+    color: rgb(53, 29, 29);
+    padding: 5px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 4rem;
+
+  
+}
+.display button:hover,
+.form button:active{
+    background-color: #000000;
+}

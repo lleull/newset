@@ -1,0 +1,43 @@
+.backdrop {
+ 
+  position: absolute;
+
+   width: 100%;
+   height: 200vh;
+   z-index: 199;
+
+    
+}
+.modal{
+    z-index: 100;
+    background-color: rgba(205, 255, 218, 0.39);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  
+    
+
+}
+.content{
+    width: 600px;
+    height: 100px;
+ 
+  display: flex;
+    border-radius: 18px;
+   color: wheat;
+    background-color: rgb(29, 21, 6);
+    animation: cartanimae 1s ease-in-out forwards;
+
+}
+
+@keyframes cartanimae {
+    from{
+         opacity: 0;
+         transform: translateY(4rem);
+    }
+}

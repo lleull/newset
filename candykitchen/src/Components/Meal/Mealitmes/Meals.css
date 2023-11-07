@@ -1,0 +1,32 @@
+.meals {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(82, 67, 67);
+
+}
+.meals h3{
+
+    margin: 0 0 0.25rem 0;
+    color: rgba(0, 0, 0, 0.637);
+}
+.description {
+    font-size: 17px;
+    color: rgb(26, 20, 14);
+    font-style: italic;
+
+}
+.price{
+    
+    margin-top: 0.25rem;
+  
+    color: red;
+}
+.Addmeal{
+    position: absolute;
+    
+    margin-left: 50%;
+    
+}
